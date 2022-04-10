@@ -4,7 +4,10 @@ import "./index.scss";
 function Root() {
   return (
     <div className="root-container">
-      <h1>Luca Ammann</h1>
+      <div className="ghost-container">
+        <img className="ghost" src="/assets/ghost.svg"></img>
+      </div>
+
       <div className="social-container">
         <a href="https://github.com/luca-ammann">
           <img src="/assets/github-logo.svg" alt="github-logo" />
